@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Biennale';
+    src:
+        url('./Fonts/Biennale/Biennale\ Light.otf');
+}
+
+#footer {
+    opacity: 100%;
+    top: 92%;
+    color: black;
+    position: absolute;
+    width: 90%;
+    max-height: 17px;
+
+    font-family: 'Biennale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 96%;
+    /* or 17px */
+
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+
+
+    animation-name: animation-footer;
+    animation-duration: 15s;
+    animation-iteration-count: initial;
+    animation-timing-function: linear;
+}
+
+@keyframes animation-footer {
+    0% {
+        opacity: 0%;
+    }
+    55%{
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.center {
+    opacity: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    justify-content: start;
+}
